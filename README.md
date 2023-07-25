@@ -1,6 +1,6 @@
 # Code 201: Foundations of Software Development
 
-Welcome to the Code 201 Facilitator Guide.
+Welcome to Code 201, Foundations of Software Development.
 
 ## Overview
 
