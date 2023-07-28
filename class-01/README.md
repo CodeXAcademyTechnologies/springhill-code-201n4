@@ -4,6 +4,9 @@
 
 Welcome to Code 201! In this class, we're going to be reviewing the basics of HTML, CSS, and JavaScript, along with getting our systems setup to do professional web development.
 
+![semantic lama](../img/html-css-toy-story-meme.jpg)
+
+
 ## Class Outline
 
 - Orientation
@@ -69,3 +72,6 @@ In the lower left-hand corner of VSCode, click on the gear icon and select "Sett
 - "editor.tabSize" should be set to 2
 - "editor.detectIndentation" should be set to true
 - "editor.wordWrap" should be set to "on"
+
+![semantic lama](../img/semantic-lama-meme.jpg)
+

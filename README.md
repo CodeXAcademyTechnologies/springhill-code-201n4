@@ -90,3 +90,5 @@ Concepts in each of our courses are taught using stacked modules, where a new co
 ## Homework Policy
 
 In order to pass the class, students must attain at least 90% of available points.
+
+![html css js meme](img/html-css-toy-story-meme.jpg)
