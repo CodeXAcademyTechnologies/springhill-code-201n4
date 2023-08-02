@@ -3,24 +3,87 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Our pets!!!!</title>
+    <title>Our pets</title>
     <meta
       name="description"
-      content="A website that talks about how awesome pets are!"
+      content="A website that talks about how awesome pets are."
     />
+    <style>
+      * {
+        --black: #000000ff;
+        --oxford-blue: #14213dff;
+        --orange-web: #fca311ff;
+        --platinum: #e5e5e5ff;
+        --white: #ffffffff;
+        /* border: .3px red solid; */
+      }
+      body {
+        margin: 0;
+      }
+
+      header {
+        padding-inline: 15%;
+        background-color: #14213dff;
+        color: #e5e5e5ff;
+        padding-block: 1.5em;
+      }
+
+      main {
+        width: 70%;
+        min-height: 85vh;
+        margin: 0 auto;
+        padding: 1em;
+      }
+
+      img,
+      #intro-section div {
+        width: 49%;
+      }
+
+      footer {
+        text-align: center;
+      }
+
+      #intro-section {
+        margin-block: 2em;
+      }
+
+      .bg-orange {
+        background-color: #fca311ff;
+      }
+
+      .d-inline-block {
+        display: inline-block;
+      }
+
+      #pets-section div {
+        width: 30%;
+      }
+
+      #pets-section {
+        text-align: center;
+        padding: 2em;
+        border: 1em solid #14213dff;
+      }
+
+      ul {
+        list-style-type: square;
+      }
+    </style>
   </head>
   <body>
     <header>
       <h1>The Pets We Love</h1>
     </header>
-    <main>
-      <section>
+    <main class="bg-orange">
+      <section id="intro-section">
         <img
           src="https://images.unsplash.com/photo-1573435567032-ff5982925350?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBldHN8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=400&q=60"
           alt="dog protecting a cat"
+          class="d-inline-block"
         />
 
-        <div>
+        <div class="d-inline-block">
           <h2>Code 201n4 loves pets</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -28,12 +91,12 @@
             eget nunc scelerisque viverra mauris in aliquam sem fringilla. Enim
             nec dui nunc mattis enim ut tellus.
           </p>
-          <a href=""></a>
+          <a href="">external link</a>
         </div>
       </section>
 
-      <section>
-        <div>
+      <section id="pets-section">
+        <div class="d-inline-block">
           <h2>animal</h2>
           <ul>
             <li>things we love about that animal</li>
@@ -44,7 +107,7 @@
             <li></li>
           </ul>
         </div>
-        <div>
+        <div class="d-inline-block">
           <h2>animal</h2>
           <ul>
             <li>things we love about that animal</li>
@@ -55,7 +118,7 @@
             <li></li>
           </ul>
         </div>
-        <div>
+        <div class="d-inline-block">
           <h2>animal</h2>
           <ul>
             <li>things we love about that animal</li>
