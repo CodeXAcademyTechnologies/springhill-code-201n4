@@ -15,7 +15,7 @@
         --orange-web: #fca311ff;
         --platinum: #e5e5e5ff;
         --white: #ffffffff;
-        /* border: .3px red solid; */
+        /* border: 0.3px red solid; */
       }
       body {
         margin: 0;
@@ -23,9 +23,9 @@
 
       header {
         padding-inline: 15%;
+        padding-block: 1.5em;
         background-color: #14213dff;
         color: #e5e5e5ff;
-        padding-block: 1.5em;
       }
 
       main {
@@ -40,6 +40,14 @@
         width: 49%;
       }
 
+      ul {
+        list-style-type: square;
+      }
+
+      li {
+        height: 80px;
+      }
+
       footer {
         text-align: center;
       }
@@ -48,16 +56,14 @@
         margin-block: 2em;
       }
 
-      .bg-orange {
-        background-color: #fca311ff;
-      }
-
-      .d-inline-block {
-        display: inline-block;
-      }
-
       #pets-section div {
         width: 30%;
+        border-right: 2px solid black;
+        padding-right: 15px;
+      }
+
+      #pets-section div:last-child {
+        border-right: none;
       }
 
       #pets-section {
@@ -66,8 +72,12 @@
         border: 1em solid #14213dff;
       }
 
-      ul {
-        list-style-type: square;
+      .bg-orange {
+        background-color: #fca311ff;
+      }
+
+      .d-inline-block {
+        display: inline-block;
       }
     </style>
   </head>
@@ -84,7 +94,7 @@
         />
 
         <div class="d-inline-block">
-          <h2>Code 201n4 loves pets</h2>
+          <h2 style="color: aqua; background-color: #e5e5e5ff;">Code 201n4 loves pets</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus
@@ -97,36 +107,36 @@
 
       <section id="pets-section">
         <div class="d-inline-block">
-          <h2>animal</h2>
+          <h2>Dog</h2>
           <ul>
-            <li>things we love about that animal</li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>They love you back!</li>
+            <li>The best cuddlers</li>
+            <li>They will greet you</li>
+            <li>Great companions</li>
+            <li>Funny and entertaining</li>
+            <li>Protectors</li>
           </ul>
         </div>
         <div class="d-inline-block">
-          <h2>animal</h2>
+          <h2>Cat</h2>
           <ul>
-            <li>things we love about that animal</li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Independent. They practically take care of themselves</li>
+            <li>Plays pranks for entertainment</li>
+            <li>Intelligent</li>
+            <li>Clean and low maintenance</li>
+            <li>Pest control</li>
+            <li>Keep you company</li>
           </ul>
         </div>
         <div class="d-inline-block">
-          <h2>animal</h2>
+          <h2>Hedgehog</h2>
           <ul>
-            <li>things we love about that animal</li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Cute and adorable</li>
+            <li>Super fast</li>
+            <li>Compact</li>
+            <li>Manicures</li>
+            <li>Bug control</li>
+            <li>Soft</li>
           </ul>
         </div>
       </section>
@@ -134,5 +144,27 @@
     <footer>
       <p>&copy; springhill code 201n4</p>
     </footer>
+    <script>
+      let username = prompt("Hey, what's your name??");
+      console.log("User's name: " + username);
+
+      let usersPet = prompt("What kind of pet do you have?");
+      console.log("User's pet: " + usersPet);
+
+      alert("Greetings " + username + " who owns a " + usersPet);
+
+      let amount = prompt("How many of those pets do you have?");
+      console.log("User's amount of " + usersPet + ": " + amount);
+
+      alert(
+        "Wow, " +
+          username +
+          ", I can't believe you have " +
+          amount +
+          " " +
+          usersPet +
+          "s!"
+      );
+    </script>
   </body>
 </html>
