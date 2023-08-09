@@ -51,7 +51,7 @@ while (correctAnswer !== userGuess) {
     alert("Too low!");
   } else if (userGuess > correctAnswer) {
     alert("Too high.");
-  } else {
+  } else if (userGuess === correctAnswer) {
     alert("That's right! The answer was " + correctAnswer);
     userScore++;
   }
