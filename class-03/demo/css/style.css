@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+}
+
+header {
+  width: 100vw;
+  background-image: url('../img/books.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header div {
+  text-align: center;
+  padding-block: 150px;
+
+}
+
+h1 {
+  font-size: 48px;
+  color: azure;
+  -webkit-text-stroke: .8px black;
+}
+
+h2 {
+  font-size: 36px;
+  color: azure;
+  -webkit-text-stroke: 1px black;
+}
+
+#about-section {
+  text-align: center;
+  margin: 64px auto;
+  width: 780px;
+}
+
+#interests-section {
+  margin: 64px auto;
+  width: 780px;
+  border: 1px solid black;
+  padding: 64px;
+}
+
+strong {
+  margin-right: 48px;
+  width: 150px;
+}
