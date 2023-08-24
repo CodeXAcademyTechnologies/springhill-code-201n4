@@ -71,8 +71,12 @@ footer {
 }
 
 #kitten-section div {
-  border: solid 1px var(--light-green);
+  /* border: solid 1px var(--light-green); */
   padding: 1rem;
   margin-bottom: 1rem;
   font-size: 1.5rem;
+}
+
+#kitten-section div, #kitten-section img {
+  display: inline-block;
 }
