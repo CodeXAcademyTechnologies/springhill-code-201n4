@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kitten Rescue</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <img width="100" src="img/kitten1.png" alt="orange kitten" />
+      <h1>Seattle Kitten Rescue</h1>
+      <img width="100" src="img/kitten2.png" alt="feisty kitten" />
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="adopt.html">Adopt a kitten</a>
+        <a href="#">About Us</a>
+      </nav>
+    </header>
+    <main>
+      <section id="form-section">
+        <form id="kitten-form">
+          <fieldset>
+            <legend>Enter Details for new kitten:</legend>
+
+            <label for="kitten-name">Kitten Name:</label>
+            <input type="text" name="kittenName" />
+
+            <label for="age">Age:</label>
+            <input type="text" name="age" />
+
+            <label for="color">Color: </label>
+            <input type="text" name="color" />
+
+            <label for="breed">Breed: </label>
+            <input type="text" name="breed" />
+
+            <label for="img-src">Img Src</label>
+            <input type="file" name="imgSrc" accept="image/png, image/jpeg" />
+
+            <label for="interests">Interests:</label>
+            <input type="text" name="interests" />
+
+            <button type="submit">Register Kitten</button>
+          </fieldset>
+        </form>
+      </section>
+      <section id="kitten-section">
+        <h3>Kitten Bios</h3>
+      </section>
+    </main>
+    <footer>&copy; Springhill-code-201n4</footer>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
