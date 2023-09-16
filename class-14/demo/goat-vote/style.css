@@ -1,0 +1,60 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+}
+
+header {
+  height: 4rem;
+  border-bottom: solid 1rem;
+}
+
+main {
+  min-height: 80vh;
+}
+
+footer {
+  text-align: center;
+}
+
+#goat-images {
+  width: 80vw;
+  margin: 0 auto;
+  margin-top: 12rem;
+}
+
+#goat-images div {
+  margin: 0 auto;
+  /* height: 24rem; */
+  width: 80vw;
+  border: solid 2px grey;
+}
+
+#goat-images img {
+  width: 300px;
+  padding: 3rem;
+}
+
+#image-container {
+  margin: 0 auto;
+  text-align: center;
+  padding-block: 8rem;
+}
+
+
+
+#results-section {
+  margin: 0 auto;
+  text-align: center;
+  width: fit-content
+}
+
+li {
+  list-style: none;
+  color: white;
+  font-size: 2rem;
+  background-color: rgb(143, 95, 188);
+  margin-block: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 6px;
+}
